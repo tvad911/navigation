@@ -11,6 +11,11 @@
             "homepage": "http://signes.pl"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Signes": "src/"
+        }
+    },
     "require": {
         "php": ">=5.3.0"
     }
