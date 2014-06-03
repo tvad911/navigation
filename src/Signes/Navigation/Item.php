@@ -1,6 +1,6 @@
 <?php
 
-	namespace Signes\Navigation\Navigation;
+	namespace Signes\Navigation;
 
 	class Item {
 
