@@ -1,0 +1,17 @@
+{
+    "name": "signes/navigation",
+    "description": "Generate a flexible navigation of your site",
+    "keywords": ["menu", "navigation"],
+    "homepage": "https://github.com/signes-pl/navigation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pawel Grzesiecki",
+            "email": "pawel.grzesiecki@signes.pl",
+            "homepage": "http://signes.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
