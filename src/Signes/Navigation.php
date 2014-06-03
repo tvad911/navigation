@@ -1,7 +1,7 @@
 <?php
 
-	namespace Signes;
+	namespace Signes\Navigation;
 
 	class Navigation {
-		
+
 	}
