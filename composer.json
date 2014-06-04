@@ -12,7 +12,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Signesnavigation\\": "src/" }
+        "psr-4": { "Signes\\": "src/" }
     },
     "require": {
         "php": ">=5.3.0"
