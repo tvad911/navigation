@@ -11,25 +11,25 @@ Navigation module give you possibility to create your multi-level navigation sys
 Create new navigation by:
 
 ```php
-$nav = Signes\Navigation::forge('my-navigation');
+$nav = \Signes\Navigation::forge('my-navigation');
 ```
 
 Add new elements to your new navigation:
 
 ```php
-$item1 = new Signes\Navigation\Item(array(
+$item1 = new \Signes\Navigation\Item(array(
 	'name' => 'item1',
 	'text' => 'Home',
 	'href' => '/'
 ));
 
-$item2 = new Signes\Navigation\Item(array(
+$item2 = new \Signes\Navigation\Item(array(
 	'name' => 'item2',
 	'text' => 'Our offer',
 	'href' => 'offer'
 ));
 
-$item3 = new Signes\Navigation\Item(array(
+$item3 = new \Signes\Navigation\Item(array(
 	'name' => 'item3',
 	'text' => 'Contact',
 	'href' => 'contact'
@@ -98,7 +98,7 @@ $menu_items = array(
 );
 
 foreach($site_main_menu as $item) {
-	Signes\Navigation::registerItem('test_renderadvanded', new Signes\Navigation\Item($item));
+	\Signes\Navigation::registerItem('test_renderadvanded', new \Signes\Navigation\Item($item));
 }
 ```
 
@@ -157,7 +157,7 @@ Each menu can be initiate with it's own configuration. This configuration define
 You can set it as array of options:
 
 ```php
-$nav = Signes\Navigation::forge('nav1', array(
+$nav = \Signes\Navigation::forge('nav1', array(
 	'item_html' => 'div',
 	'item_attributtes' => array(
 		'class' => 'global-class-for-wrapper'
@@ -168,7 +168,7 @@ $nav = Signes\Navigation::forge('nav1', array(
 ,or as preset name. Presets are defined in configuration file.
 
 ```php
-$nav = Signes\Navigation::forge('nav1', 'preset_name');
+$nav = \Signes\Navigation::forge('nav1', 'preset_name');
 ```
 
 Menu options can be overwritten by single configuration defined with **item** (see **item options**).
@@ -240,7 +240,7 @@ echo $menu->render(array(
 or
 
 ```php
-echo Signes\Navigation\render('menu-name', array(
+echo \Signes\Navigation::render('menu-name', array(
 	'subitem_tag' => 'header',
 	'subitem_attributes' => array(
 		'id' => 'top-level'
