@@ -12,8 +12,8 @@
         }
     ],
     "autoload": {
-        "autoload": {
-            "psr-0": { "Navigation": "src/" }
+        "psr-0": {
+            "Navigation": "src/"
         }
     },
     "require": {
