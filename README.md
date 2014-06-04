@@ -6,6 +6,20 @@
 
 Navigation module give you possibility to create your multi-level navigation system, fast and easy.
 
+## Installation
+
+Add this module to your **composer.json** file
+```php
+"require": {
+	"signes/navigation": "v1.0.0",
+	...
+```
+
+and run
+```php
+php composer.phar update
+```
+
 ## Quick start
 
 Create new navigation by:

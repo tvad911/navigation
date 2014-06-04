@@ -7,3 +7,5 @@ php:
 branches:
   except:
     - /^v1.0.0$/
+script:
+  phpunit tests/NavigationTest.php
