@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/signes-pl/navigation.svg?branch=master)](https://travis-ci.org/signes-pl/navigation)
 # Navigation Module
 
 * Version: 1.0
