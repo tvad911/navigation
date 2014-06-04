@@ -6,19 +6,6 @@
 
 Navigation module give you possibility to create your multi-level navigation system, fast and easy.
 
-## Installation
-
-1. Download or clone this code
-2. Put it in your module directory (default: **/fuel/app/modules/**)
-3. Enable this module in **config.php** file:
-```php
-'modules'  => array(
-	'navigation',
-	[...]
-);
-```
-Now, you can use navigation!
-
 ## Quick start
 
 Create new navigation by:
